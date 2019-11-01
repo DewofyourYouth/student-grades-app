@@ -62,6 +62,7 @@ const GradesTable = () => {
                                     <button className="btn btn-outline-primary" onClick={() => {
                                         setGrades(grades.sort((a,b) => a.last_name.localeCompare(b.last_name)))
                                         setFilter('last_name')
+                                        setReverse(false)
                                     }}>
                                       Last  
                                     </button>
@@ -116,18 +117,19 @@ const GradesTable = () => {
                         <div className="col-md-4">
                             <p><strong>Average Grade:</strong> {(!loading) ? gradeAverage(grades, 2) : "loading"}</p>
                         </div>
-                        <div className="col-md-4"><p><strong>Grades Per Page:</strong> {gradesPerPage} 
+                        <div className="col-md-4"><p><strong>Grades Per Page:</strong> 
                                 <button 
-                                    className="btn btn-success btn-sm ml-4"
-                                    onClick={() => setGradesPerPage(gradesPerPage + 1)}
-                                    >
-                                    <FontAwesomeIcon icon={faPlus} />
-                                </button>
-                                <button 
-                                    className="btn btn-success btn-sm"
+                                    className="btn btn-success btn-sm ml-2 mr-2"
                                     onClick={showLessGrades}
                                     >
                                         <FontAwesomeIcon icon={faMinus} />
+                                </button>
+                                {gradesPerPage} 
+                                <button 
+                                    className="btn btn-success btn-sm ml-2"
+                                    onClick={() => setGradesPerPage(gradesPerPage + 1)}
+                                    >
+                                    <FontAwesomeIcon icon={faPlus} />
                                 </button>
                             </p></div>
                     </div>
