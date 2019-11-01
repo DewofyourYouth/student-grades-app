@@ -1,1 +1,1 @@
-# students-wpals
+# WebPals Student App
