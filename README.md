@@ -13,5 +13,8 @@
 - `php artisan migrate`
 - `npm install`
 - `php artisan serve`
+
+### React FrontEnd
+
 - Go to the `webpals_front_end` directory
 - `npm start`
