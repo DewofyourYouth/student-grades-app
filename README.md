@@ -14,4 +14,4 @@
 - `npm install`
 - `php artisan serve`
 - Go to the `webpals_front_end` directory
-- `npm install && npm start`
+- `npm start`
