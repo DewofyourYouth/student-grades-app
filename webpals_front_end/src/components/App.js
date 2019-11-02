@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import '../.scss/App.scss';
-import Nav from './Nav';
+import Nav from './ui-elements/Nav';
 import Grades from './Grades';
 import StudentDetails from './StudentDetails'
+import DeleteGrade from './DeleteGrade';
+import EditGrade from './EditGrade';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
                     <Route path="/" exact component={HomePage} />
                     <Route path="/grades" exact component={Grades} />
                     <Route path="/student/:id" component={StudentDetails} />
+                    <Route path="/delete_grade/:id" component={DeleteGrade} />
+                    <Route path="/edit_grade/:id" component={EditGrade} />
                 </div>
             </div>
         </Router>

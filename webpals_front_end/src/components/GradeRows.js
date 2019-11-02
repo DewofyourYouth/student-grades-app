@@ -1,6 +1,7 @@
 import React from 'react'
-import axios from 'axios'
 import {Link} from 'react-router-dom'
+import DeleteButton from './ui-elements/DeleteButton'
+import EditButton from './ui-elements/EditButton'
 
 const GradeRows = ({grades}) => {
 
@@ -19,10 +20,10 @@ const GradeRows = ({grades}) => {
                             </Link>
                         </td>
                         <td>{grade.grade}%</td>
-                        <td>{grade.updated_at}</td>
+                        <td>{grade.created_at}</td>
                         <td>
-                            <button className="btn btn-outline-success">Edit</button>
-                            <button class="btn btn-outline-danger">Delete</button>
+                            <EditButton type={'grade'} id={grade.grade_id} />
+                            <DeleteButton type={'grade'} id={grade.grade_id} />
                         </td>
                     </tr>
                 ))}

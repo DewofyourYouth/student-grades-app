@@ -4,8 +4,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlus, faMinus, faCaretDown, faCaretUp} from '@fortawesome/free-solid-svg-icons'
 
 import '../.scss/GradesTable.scss'
-import Spinner from './Spinner'
-import Pagination from './Pagination'
+import Spinner from './ui-elements/Spinner'
+import Pagination from './ui-elements/Pagination'
 import GradeRows from './GradeRows'
 
 const gradeAverage = (arr, toDec) => (arr.map(obj => obj.grade)
@@ -16,7 +16,7 @@ const GradesTable = () => {
 
 
     const [grades, setGrades] = useState([]);
-    const [gradesFilter, setFilter] = useState('updated_at')
+    const [gradesFilter, setFilter] = useState('created_at')
     const [loading, setLoading] = useState(true)
     const [currentPage, setCurrentPage] = useState(1)
     const [gradesPerPage, setGradesPerPage] = useState(5)
@@ -39,8 +39,7 @@ const GradesTable = () => {
     const currentGrades = grades.slice(indexOfFirstGrade, indexOfLastGrade)
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber)
-   
-
+//    console.log(grades)
     const renderContent = () => {
         if (loading) {
             return (
@@ -77,7 +76,11 @@ const GradesTable = () => {
                                     </button>
                                 </th>
                                 <th>
-                                    <button className="btn btn-outline-primary" onClick={() => grades.sort(function(a, b){ return a.updated_at - b.updated_at}) }>Updated At</button>
+                                    <button className="btn btn-outline-primary" onClick={() => {
+                                        setGrades(grades.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime() ))
+                                        setFilter('created_at')
+                                        setReverse(false)
+                                    }}>Created At</button>
                                     
                                 </th>
                                 <th>
@@ -90,7 +93,12 @@ const GradesTable = () => {
                         </thead>
                         <GradeRows grades={currentGrades}/>
                     </table>
-                    <Pagination gradesPerPage={gradesPerPage} totalGrades={grades.length} paginate={paginate}
+                    <Pagination 
+                        gradesPerPage={gradesPerPage} 
+                        totalGrades={grades.length} 
+                        paginate={paginate}
+                        firstIndex={indexOfFirstGrade}
+                        lastIndex={indexOfLastGrade}
                     />
                     </div>
                 </div>

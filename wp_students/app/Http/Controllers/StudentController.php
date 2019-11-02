@@ -26,12 +26,22 @@ class StudentController extends Controller
         return response()->json($response, 200);
     }
 
+    public function getStudentsWithAverage(Request $request)
+    {
+        $students = App\Students::select('students.id', 'students.first_name', 'students.last_name', DB::raw('AVG(grades.grade) AS mean_grade'))
+            ->join('grades', 'grades.student_id', '=', 'students.id')
+            ->groupBy('student.id')
+            ->get();
+
+        return response()->json(['students' => $students], 200);
+    }
+
     public function getStudentsWithGrades(Request $request)
     {
         $grades = DB::table('students as s')
-            ->select('s.id', 's.last_name', 's.first_name', 'g.grade', 'g.updated_at', 'g.id as grade_id')
-            ->leftJoin('grades as g', 's.id', '=', 'g.student_id')
-            ->orderBy('g.updated_at', 'desc')
+            ->select('s.id', 's.last_name', 's.first_name', 'g.grade', 'g.created_at', 'g.id as grade_id')
+            ->rightJoin('grades as g', 's.id', '=', 'g.student_id')
+            ->orderBy('g.created_at', 'desc')
             ->get();
 
             return response()->json(['grades' => $grades], 200);

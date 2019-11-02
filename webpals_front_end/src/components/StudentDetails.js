@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Spinner from './Spinner';
+import Spinner from './ui-elements/Spinner';
 
 const gradeAverage = (arr, toDec) => (arr.map(obj => obj.grade)
                                         .reduce((a, b) => a + b, 0) / arr.length)

@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Pagination = ({gradesPerPage, totalGrades, paginate}) => {
+const Pagination = ({
+    gradesPerPage,
+    totalGrades, 
+    paginate, 
+    firstIndex, 
+    lastIndex}) => {
     const pageNumbers = [];
 
     for (let i = 1; i <= Math.ceil(totalGrades/gradesPerPage); i++) {
@@ -16,6 +21,7 @@ const Pagination = ({gradesPerPage, totalGrades, paginate}) => {
                 </li>
                 ))}
             </ul>
+            <p className="text-center">{firstIndex + 1} - {lastIndex}</p>
         </nav>
     )
 }

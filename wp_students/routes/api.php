@@ -24,6 +24,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
  Route::post('/student', 'StudentController@postStudent');
  Route::get('/students', 'StudentController@getStudents');
+ Route::get('/students_avg', 'StudentController@getStudentsWithAverage');
 
  // returns a list of grades by students:
  Route::get('/student_grades', 'StudentController@getStudentsWithGrades');
@@ -35,3 +36,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
   */
 
   Route::post('/grade', 'GradeController@postGrade');
+  Route::delete('/grade/{id}', 'GradeController@deleteGrade');
+  Route::put('/grade/{id}', array(
+    'uses' => 'GradeController@editGrade'
+  )
+  );
+  Route::get('/grade/{id}', 'GradeController@getGrade');
