@@ -102,7 +102,7 @@ const StudentList = () => {
                                     }}>Created At</button>
 
                                 </th>
-                                <th>;
+                                <th>
                                 <button className="ml-5 btn btn-outline-primary" onClick={() => {
                                         students.reverse()
                                         setReversed(!reversed)

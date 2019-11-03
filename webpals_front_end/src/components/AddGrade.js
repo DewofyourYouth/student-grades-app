@@ -24,6 +24,9 @@ const AddGrade = ({ match }) => {
             .then(function (res) {
                 setStudents(res.data.students)
             })
+            .catch(function (err) {
+                console.log(err)
+            })
     }
 
     const postGrade = (event) => {

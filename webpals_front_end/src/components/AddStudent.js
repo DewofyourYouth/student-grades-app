@@ -11,8 +11,8 @@ const AddStudent = () => {
         event.preventDefault()
         axios.post('http://127.0.0.1:8000/api/student', {
             "first_name": firstName, 
-            "last_name": lastName}
-            )
+            "last_name": lastName
+        })
             .then(function (response) {
                 console.log(response)
                 Swal.fire({
@@ -43,7 +43,7 @@ const AddStudent = () => {
                         name="firstName" 
                         className="form-control"
                         defaultValue={firstName}
-                        onChange={(e) => setFirstName(e.target.value)} />
+                        onChange={(e) => setFirstName(e.target.value.trim())} />
                 </div>
                 <div className="col-md">
                     <label htmlFor="lastName">Last Name</label>
@@ -52,7 +52,7 @@ const AddStudent = () => {
                         name="lastName" 
                         className="form-control"
                         defaultValue={lastName}
-                        onChange={(e) => setLastName(e.target.value)} />
+                        onChange={(e) => setLastName(e.target.value.trim())} />
                 </div>
             </div>
             <div className="form-row">
@@ -67,4 +67,3 @@ const AddStudent = () => {
 }
 
 export default AddStudent
-

@@ -42,6 +42,7 @@ function StudentDetails({ match }) {
                 <div>
                     <AddButton type="grade" id={student.id} />
                     <h1 className="pt-3">{student.first_name} {student.last_name}</h1>
+                    <p><strong>Student ID #{student.id}</strong> </p>
                     <EditButton type={'student'} id={student.id} />
                     <DeleteButton type={'student'} id={student.id} />
                     <hr />
