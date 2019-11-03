@@ -11,7 +11,7 @@ import AddStudent from './AddStudent';
 import AddGrade from './AddGrade';
 import DeleteStudent from './DeleteStudent';
 import EditStudent from './EditStudent';
-import StudentsTable from './StudentsTable';
+
 
 
 function App() {
