@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 
-const DeleteGrade = ({ match }) => {
-    const deleteGrade = async (id) => {
-        await axios.delete(`http://127.0.0.1:8000/api/grade/${match.params.id}`)
+const DeleteStudent = ({match}) => {
+    console.log(match)
+
+    const deleteStudent = async (id) => {
+        await axios.delete(`http://127.0.0.1:8000/api/student/${match.params.id}`)
         Swal.fire({
             type: 'success',
             title: "Deleted!",
@@ -18,10 +20,11 @@ const DeleteGrade = ({ match }) => {
     }
 
     return (
-        <div className="text-center question-screen">
+        <div>
+            <div className="text-center question-screen">
             <div className="row">
                 <div className="col-12">
-                    <h2 className="pt-4">{`Delete Grade #${match.params.id}?`}</h2>
+                    <h2 className="pt-4">{`Delete Student #${match.params.id}?`}</h2>
                 </div>
             </div>
             <div className="row pt-5">
@@ -30,7 +33,7 @@ const DeleteGrade = ({ match }) => {
                         <div className="card-body">
                             <button
                                 className="btn btn-success btn-lg"
-                                onClick={() => deleteGrade(match.params.id)}
+                                onClick={() => deleteStudent(match.params.id)}
                             ><FontAwesomeIcon icon={faCheck} /></button>
                             <h5 className="card-title pt-3">Yes! Delete away!</h5>
 
@@ -41,7 +44,7 @@ const DeleteGrade = ({ match }) => {
                 <div className="col-md-6">
                     <div className="card">
                         <div className="card-body">
-                            <Link className="btn btn-danger btn-lg" to="/grades"><FontAwesomeIcon icon={faHandPaper} /></Link>
+                            <Link className="btn btn-danger btn-lg" to="/students"><FontAwesomeIcon icon={faHandPaper} /></Link>
                             <h5 className="card-title pt-3">No! I still need that!</h5>
                         </div>
                     </div>
@@ -50,7 +53,8 @@ const DeleteGrade = ({ match }) => {
             </div>
         </div>
 
+        </div>
     )
 }
 
-export default DeleteGrade
+export default DeleteStudent
