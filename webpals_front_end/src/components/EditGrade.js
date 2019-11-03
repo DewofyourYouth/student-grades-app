@@ -12,12 +12,11 @@ const EditGrade = ({match}) => {
 
     const fetchGrade = () => {
         axios.get(`http://127.0.0.1:8000/api/grade/${match.params.id}`)
-            .then(function (response){
+            .then( (response) => {
                 setGrade(response.data.grade.grade)
                 setData(response.data.student)
-                
             })
-            .catch(function (err) {
+            .catch(err => {
                 console.log(err)
             })
     }
