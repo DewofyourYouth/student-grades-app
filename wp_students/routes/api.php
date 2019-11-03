@@ -37,8 +37,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
   Route::post('/grade', 'GradeController@postGrade');
   Route::delete('/grade/{id}', 'GradeController@deleteGrade');
-  Route::put('/grade/{id}', array(
-    'uses' => 'GradeController@editGrade'
-  )
-  );
+  Route::put('/grade/{id}', 'GradeController@editGrade');
   Route::get('/grade/{id}', 'GradeController@getGrade');

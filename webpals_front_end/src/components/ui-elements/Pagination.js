@@ -1,14 +1,14 @@
 import React from 'react'
 
 const Pagination = ({
-    gradesPerPage,
-    totalGrades, 
-    paginate, 
-    firstIndex, 
-    lastIndex}) => {
+    perPage,
+    total,
+    paginate,
+    firstIndex,
+    lastIndex }) => {
     const pageNumbers = [];
 
-    for (let i = 1; i <= Math.ceil(totalGrades/gradesPerPage); i++) {
+    for (let i = 1; i <= Math.ceil(total / perPage); i++) {
         pageNumbers.push(i)
     }
 
@@ -16,9 +16,9 @@ const Pagination = ({
         <nav>
             <ul className="pagination justify-content-center">
                 {pageNumbers.map(number => (
-                <li key={number} className="page-item">
-                    <button onClick={(e) => paginate(number)} className="page-link">{number}</button>
-                </li>
+                    <li key={number} className="page-item">
+                        <button onClick={(e) => paginate(number)} className="page-link">{number}</button>
+                    </li>
                 ))}
             </ul>
             <p className="text-center">{firstIndex + 1} - {lastIndex}</p>

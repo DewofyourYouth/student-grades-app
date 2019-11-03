@@ -10,12 +10,12 @@ const GradeRows = ({grades}) => {
                 {grades.map(grade => (
                     <tr key={grade.grade_id}>
                         <td>
-                            <Link to={`/student/${grade.id}`}>
+                            <Link to={`/students/${grade.id}`}>
                                 {grade.first_name}
                             </Link>
                         </td>
                         <td>
-                            <Link to={`/student/${grade.id}`}>
+                            <Link to={`/students/${grade.id}`}>
                                 {grade.last_name}
                             </Link>
                         </td>

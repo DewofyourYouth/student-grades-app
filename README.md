@@ -17,4 +17,4 @@
 ### React FrontEnd
 
 - Go to the `webpals_front_end` directory
-- `npm start`
+- `npm start` or `npm run build`

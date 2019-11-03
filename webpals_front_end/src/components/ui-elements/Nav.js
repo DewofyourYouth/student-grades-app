@@ -34,7 +34,7 @@ function Nav() {
                         <NavLink
                             className="nav-link"
                             activeClassName="active"
-                            to="/student">
+                            to="/students">
                             Students
                         </NavLink>
                     </li>

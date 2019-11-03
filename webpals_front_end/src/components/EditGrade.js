@@ -47,10 +47,10 @@ const EditGrade = ({match}) => {
                 <div className="col-sm-6 text-right"><label htmlFor="grade"><strong>Score: </strong></label></div>
                 <div className="col-sm-2 text-left">
                     <input 
-                        type="text" 
                         name="score" 
+                        type="number" 
                         className="form-control" 
-                        value={grade}
+                        defaultValue={grade}
                         onChange={(e) => setGrade(e.target.value)}
                     />
                 </div>

@@ -7,6 +7,7 @@ import '../.scss/GradesTable.scss'
 import Spinner from './ui-elements/Spinner'
 import Pagination from './ui-elements/Pagination'
 import GradeRows from './GradeRows'
+import AddButton from './ui-elements/AddButton'
 
 const gradeAverage = (arr, toDec) => (arr.map(obj => obj.grade)
     .reduce((a, b) => a + b, 0) / arr.length)
@@ -94,8 +95,8 @@ const GradesTable = () => {
                         <GradeRows grades={currentGrades}/>
                     </table>
                     <Pagination 
-                        gradesPerPage={gradesPerPage} 
-                        totalGrades={grades.length} 
+                        perPage={gradesPerPage} 
+                        total={grades.length} 
                         paginate={paginate}
                         firstIndex={indexOfFirstGrade}
                         lastIndex={indexOfLastGrade}
@@ -117,7 +118,12 @@ const GradesTable = () => {
 
     return (
         <div>
-            <h1 className="display-3 text-center mt-4 mb-5">Grades</h1>
+            <h1 className="display-3 text-center m-3">Grades</h1>
+            <div className="row">
+                <div className="col">
+                    <AddButton type='grade' />
+                </div>
+            </div>
             <div className="row">
                         <div className="col-md-4">
                             <p><strong>Grade Count:</strong> {(!loading) ? grades.length : "loading"}</p>
