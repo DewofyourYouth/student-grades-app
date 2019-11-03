@@ -27,7 +27,6 @@ const StudentsTable = ({ students }) => {
                     </td>
                     <td>
                         {student.created_at}
-                        {student.created_at}
                     </td>
                     <td>
                         <EditButton type={'student'} id={student.id} />
