@@ -74,6 +74,7 @@ const StudentList = () => {
                                 <th>ID</th>
                                 <th>First Name</th>
                                 <th>Last Name</th>
+                                <th>Created At</th>
                                 <th></th>
                             </tr>
                         </thead>
