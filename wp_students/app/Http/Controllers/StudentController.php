@@ -35,7 +35,7 @@ class StudentController extends Controller
                 'id' => $student->id,
                 'first_name' => $student->first_name,
                 'last_name' => $student->last_name,
-                'created_at' => date_format($student->created_at, "Y/m/d H:i:s"),
+                'created_at' => date_format($student->created_at, "M jS, Y @ g:i A"),
                 'average' => number_format((float)$student->grades()->avg('grade'), 2, '.', '')
                 ]);
         }
@@ -60,6 +60,19 @@ class StudentController extends Controller
         $grades = Grade::where('student_id', '=', $id)->get();
         
         return response()->json( ['student' => $student, 'grades' => $grades], 201);
+    }
+
+    public function editStudent(Request $request, $id)
+    {
+        $student = Student::find($id);
+        if (!$student) {
+            return response()->json(["message" => "Not found"], 404);
+        }
+        $student->first_name = $request->input('first_name');
+        $student->last_name = $request->input('last_name');
+        $student->save();
+        return response()->json(['student' => $student], 200);
+    
     }
 
     public function deleteStudent($id)

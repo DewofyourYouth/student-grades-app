@@ -10,6 +10,7 @@ import StudentList from './StudentList';
 import AddStudent from './AddStudent';
 import AddGrade from './AddGrade';
 import DeleteStudent from './DeleteStudent';
+import EditStudent from './EditStudent';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/add_grade" exact component={AddGrade} />
                     <Route path="/add_grade/:id" component={AddGrade} />
                     <Route path="/delete_student/:id" component={DeleteStudent} />
+                    <Route path="/edit_student/:id" component={EditStudent} />
                 </div>
             </div>
         </Router>

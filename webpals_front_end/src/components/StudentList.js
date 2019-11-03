@@ -96,7 +96,7 @@ const StudentList = () => {
                                 </th>
                                 <th>
                                     <button className="btn btn-outline-primary" onClick={() => {
-                                        setStudents(students.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()))
+                                        setStudents(students.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime()))
                                         setFilter('created_at')
                                         setReversed(false)
                                     }}>Created At</button>
