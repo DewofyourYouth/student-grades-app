@@ -28,12 +28,19 @@ class StudentController extends Controller
 
     public function getStudentsWithAverage(Request $request)
     {
-        $students = App\Students::select('students.id', 'students.first_name', 'students.last_name', DB::raw('AVG(grades.grade) AS mean_grade'))
-            ->join('grades', 'grades.student_id', '=', 'students.id')
-            ->groupBy('student.id')
-            ->get();
+        $students = Student::all();
+        $studentsAverage = [];
+        foreach ($students as &$student) {
+            array_push($studentsAverage, [
+                'id' => $student->id,
+                'first_name' => $student->first_name,
+                'last_name' => $student->last_name,
+                'created_at' => date_format($student->created_at, "Y/m/d H:i:s"),
+                'average' => number_format((float)$student->grades()->avg('grade'), 2, '.', '')
+                ]);
+        }
 
-        return response()->json(['students' => $students], 200);
+        return response()->json(['students' => $studentsAverage], 200);
     }
 
     public function getStudentsWithGrades(Request $request)
@@ -52,7 +59,14 @@ class StudentController extends Controller
         $student = Student::find($id);
         $grades = Grade::where('student_id', '=', $id)->get();
         
-
         return response()->json( ['student' => $student, 'grades' => $grades], 201);
+    }
+
+    public function deleteStudent($id)
+    {
+        $student = Student::find($id);
+        $grades = Grade::where('student_id', '=', $id)->delete();
+        $student->delete();
+        return response()->json(['message' => "Student {$id} deleted"], 200);
     }
 }

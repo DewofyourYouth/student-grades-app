@@ -20,7 +20,7 @@ const StudentList = () => {
     const [reversed, setReversed] = useState(false)
 
     const fetchStudents = () => {
-        axios.get(`http://127.0.0.1:8000/api/students`)
+        axios.get(`http://127.0.0.1:8000/api/students_avg`)
             .then((res) => {
                 setStudents(res.data.students)
             })
@@ -100,6 +100,14 @@ const StudentList = () => {
                                         setFilter('created_at')
                                         setReversed(false)
                                     }}>Created At</button>
+
+                                </th>
+                                <th>
+                                    <button className="btn btn-outline-primary" onClick={() => {
+                                        setStudents(students.sort((a, b) => b.average - a.average))
+                                        setFilter('average')
+                                        setReversed(false)
+                                    }}>Average</button>
 
                                 </th>
                                 <th>

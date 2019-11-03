@@ -29,6 +29,9 @@ const StudentsTable = ({ students }) => {
                         {student.created_at}
                     </td>
                     <td>
+                        {student.average} %
+                    </td>
+                    <td>
                         <EditButton type={'student'} id={student.id} />
                         <DeleteButton type={'student'} id={student.id} /> 
                     </td>
