@@ -17,12 +17,16 @@
 Example of the `.env` config:
 
 ```
+# don't touch the stuff above
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=myDB
 DB_USERNAME=root
 DB_PASSWORD=r3@l~p@$$w0r|) # password here
+
+# don't touch the stuff below
 ```
 
 ### React FrontEnd
