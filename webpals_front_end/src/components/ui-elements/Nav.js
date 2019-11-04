@@ -1,14 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '../../.scss/Nav.scss'
 
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <NavLink
                 to="/"
                 className="navbar-brand"
                 activeClassName="active">
-                StudentGrades
+                <strong>SouthPark</strong>Grades
             </NavLink>
             <button 
                 className="navbar-toggler" 

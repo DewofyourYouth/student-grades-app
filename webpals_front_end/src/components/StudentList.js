@@ -42,7 +42,7 @@ const StudentList = () => {
 
     return (
         <div id="students">
-            <h1 className="display-3 text-center m-3">Students</h1>
+            <h1 className="display-3 text-center p-3 pb-5 header">Students</h1>
             <div className="row">
                 <div className="col">
                     <AddButton type='student' />

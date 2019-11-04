@@ -44,26 +44,27 @@ export default App
 
 const HomePage = () => {
     return (
-        <div className="text-center pt-5">
+        <div className="text-center ">
           <div className="row">
               <div className="col-12">
-                  <h1 className="display-3">
-                      Welcome to the Student Grades Admin
+                  <h1 className="display-3 p-3 pb-5 header">
+                        South Park Elementary
                   </h1>
-                  <hr />
               </div>
           </div>
           <div className="row">
               <div className="col">
-                <h1>
-                   Laboris incididunt nisi minim est elit. 
+                <h1 className="mt-3">
+                   Goin' Down To South Park  
                 </h1>
+                <hr />
                 <p className="text-left">
                     Non adipisicing ullamco incididunt sit quis quis aliquip non exercitation. Tempor sint et do anim cupidatat enim laboris. Aute incididunt ipsum ullamco in. Mollit et mollit labore et pariatur sint nisi duis anim. Duis consequat reprehenderit cillum est Lorem sit cillum ipsum ad labore id laborum mollit. Labore eiusmod nulla dolor nulla sit aliquip quis laborum. Commodo esse et tempor laborum veniam enim elit laborum nostrud proident sint.    
                 </p> 
               </div>
-              <div className="col">
-                  <h1>Proident nulla amet anim cupidatat consequat.</h1>
+              <div className="col mt-3">
+                  <h1 className="">Gonna Have My Self A Time</h1>
+                  <hr />
                   <p className="text-left">
                       Officia elit nisi adipisicing in ea ullamco aute Lorem qui consequat ad mollit. Duis aliqua non velit id enim ex voluptate. Mollit officia irure ipsum proident elit duis enim exercitation officia laborum labore quis.
                   </p>

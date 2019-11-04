@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {Redirect} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faHandPaper } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
@@ -8,15 +9,23 @@ import Swal from 'sweetalert2'
 const DeleteStudent = ({match}) => {
     console.log(match)
 
+    const [fireRedirect, setFireRedirect] = useState(false)
+
     const deleteStudent = async (id) => {
         await axios.delete(`http://127.0.0.1:8000/api/student/${match.params.id}`)
         Swal.fire({
             type: 'success',
             title: "Deleted!",
             text: "Siyanara!"
-
         })
-        window.history.back()
+        setFireRedirect(true)
+    }
+
+
+    if (fireRedirect){
+        return (
+            <Redirect to="/students" />
+        )
     }
 
     return (
@@ -36,7 +45,6 @@ const DeleteStudent = ({match}) => {
                                 onClick={() => deleteStudent(match.params.id)}
                             ><FontAwesomeIcon icon={faCheck} /></button>
                             <h5 className="card-title pt-3">Yes! Delete away!</h5>
-
                         </div>
                     </div>
 
