@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 
 class StudentController extends Controller
 {
+    /**
+     * Add a student to students table
+     */
     public function postStudent(Request $request)
     {
         $student = new Student();
@@ -17,6 +20,9 @@ class StudentController extends Controller
         return response()->json(['student' => $student], 201);
     }
 
+    /**
+     * Returns a simple list of students
+     */
     public function getStudents()
     {
         $students = Student::all();
@@ -26,6 +32,9 @@ class StudentController extends Controller
         return response()->json($response, 200);
     }
 
+    /**
+     * This function returns a list of all students with their average grade
+     */
     public function getStudentsWithAverage(Request $request)
     {
         $students = Student::all();
@@ -43,6 +52,9 @@ class StudentController extends Controller
         return response()->json(['students' => $studentsAverage], 200);
     }
 
+    /**
+     * Returns all grades with student info
+     */
     public function getStudentsWithGrades(Request $request)
     {
         $grades = DB::table('students as s')
@@ -54,6 +66,9 @@ class StudentController extends Controller
             return response()->json(['grades' => $grades], 200);
     }
 
+    /**
+     * Return a student and their grades based on student id number 
+     */
     public function getStudentGrades(Request $request, $id)
     {
         $student = Student::find($id);
@@ -62,6 +77,9 @@ class StudentController extends Controller
         return response()->json( ['student' => $student, 'grades' => $grades], 201);
     }
 
+    /**
+     * Edit a students name
+     */
     public function editStudent(Request $request, $id)
     {
         $student = Student::find($id);

@@ -43,5 +43,6 @@ class GradeController extends Controller
         $grade->save();
         return response()->json(['grade' => $grade], 200);
     }
+    
 
 }

@@ -30,6 +30,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
  // returns a list of grades by students:
  Route::get('/student_grades/{id}', 'StudentController@getStudentGrades');
+ // returns all grades with student info
  Route::get('/student_grades', 'StudentController@getStudentsWithGrades');
 
  /**
@@ -37,7 +38,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
   *
   */
 
-  Route::post('/grade', 'GradeController@postGrade');
-  Route::delete('/grade/{id}', 'GradeController@deleteGrade');
-  Route::put('/grade/{id}', 'GradeController@editGrade');
   Route::get('/grade/{id}', 'GradeController@getGrade');
+  Route::post('/grade', 'GradeController@postGrade');
+  Route::put('/grade/{id}', 'GradeController@editGrade');
+  Route::delete('/grade/{id}', 'GradeController@deleteGrade');
