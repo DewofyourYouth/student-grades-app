@@ -11,7 +11,6 @@
 - In `.env` edit the database settings to work with your `mysql` database (instructions for mysql - but should work with other relational databases with slight modifications)
     - The port should be set to `localhost:8000` (will extract to env variable when done in docker)
 - `php artisan migrate`
-- `npm install`
 - `php artisan serve`
 
 Example of the `.env` config:
