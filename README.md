@@ -14,6 +14,17 @@
 - `npm install`
 - `php artisan serve`
 
+Example of the `.env` config:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=myDB
+DB_USERNAME=root
+DB_PASSWORD=r3@l~p@$$w0r|) # password here
+```
+
 ### React FrontEnd
 
 - Go to the `webpals_front_end` directory
