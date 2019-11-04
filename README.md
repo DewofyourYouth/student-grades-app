@@ -2,7 +2,7 @@
 
 ## Set Up Basics
 
-- Assumes node, php, mysql and laravel are installed on system.
+- Assumes node, php, mysql and composer are installed on system.
 
 ### Laravel Backend
 
