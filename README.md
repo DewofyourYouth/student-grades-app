@@ -2,7 +2,7 @@
 
 ## Set Up Basics
 
-- Assumes node, php, mysql and composer are installed on system.
+- Assumes [node](https://nodejs.org/en/), [php](https://www.php.net/manual/en/install.php), [mysql](https://dev.mysql.com/downloads/installer/) and [composer](https://getcomposer.org/) are installed on system.
 
 ### Laravel Backend
 
