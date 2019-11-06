@@ -26,7 +26,7 @@ const StudentsTable = ({ students }) => {
                         </Link>
                     </td>
                     <td>
-                        {student.created_at}
+                        {student.created_at_fmt}
                     </td>
                     <td>
                         {student.average} %

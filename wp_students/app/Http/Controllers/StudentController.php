@@ -44,7 +44,8 @@ class StudentController extends Controller
                 'id' => $student->id,
                 'first_name' => $student->first_name,
                 'last_name' => $student->last_name,
-                'created_at' => date_format($student->created_at, "M jS, Y @ g:i A"),
+                'created_at' => $student->created_at,
+                'created_at_fmt' => date_format($student->created_at, "M jS, Y @ g:i A"),
                 'average' => number_format((float)$student->grades()->avg('grade'), 2, '.', '')
                 ]);
         }

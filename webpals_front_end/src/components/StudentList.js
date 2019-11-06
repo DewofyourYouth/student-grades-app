@@ -16,7 +16,7 @@ const StudentList = () => {
     const [students, setStudents] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
     const [studentsPerPage, setStudentsPerPage] = useState(5)
-    const [filter, setFilter] = useState('id')
+    const [filter, setFilter] = useState(null)
     const [reversed, setReversed] = useState(false)
 
     const fetchStudents = () => {
@@ -24,6 +24,7 @@ const StudentList = () => {
             .then((res) => {
                 setStudents(res.data.students)
             })
+            .catch(err => `Error: ${err}`)
     }
 
     const indexOfLastStudent = currentPage * studentsPerPage
