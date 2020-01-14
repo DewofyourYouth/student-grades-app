@@ -1,4 +1,4 @@
-# WebPals Student App
+# Student App
 
 ## Set Up Basics
 
