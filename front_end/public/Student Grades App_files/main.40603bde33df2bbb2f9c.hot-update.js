@@ -9,13 +9,13 @@ webpackHotUpdate("main",{
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/AddStudent.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/AddStudent.js";
 
 
 
@@ -24,12 +24,12 @@ const AddStudent = () => {
   //     studentDeets()
   // }, [])
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         firstName = _useState2[0],
         setFirstName = _useState2[1];
 
   const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
-        _useState4 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        _useState4 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
         lastName = _useState4[0],
         setLastName = _useState4[1]; // const studentDeets = () => {
   // }

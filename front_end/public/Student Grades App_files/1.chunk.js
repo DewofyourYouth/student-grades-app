@@ -1,4 +1,4 @@
-(this["webpackJsonpwebpals_front_end"] = this["webpackJsonpwebpals_front_end"] || []).push([[1],{
+(this["webpackJsonpfront_end"] = this["webpackJsonpfront_end"] || []).push([[1],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\

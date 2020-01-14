@@ -848,7 +848,7 @@
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
-/******/ 	var jsonpArray = this["webpackJsonpwebpals_front_end"] = this["webpackJsonpwebpals_front_end"] || [];
+/******/ 	var jsonpArray = this["webpackJsonpfront_end"] = this["webpackJsonpfront_end"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
 /******/ 	jsonpArray.push = webpackJsonpCallback;
 /******/ 	jsonpArray = jsonpArray.slice();

@@ -8,7 +8,7 @@ An CRUD app for keeping track of and updating students and their grades. Uses ne
 
 ### Laravel Backend
 
-- Go to the `wp_students` directory
+- Go to the `back_end` directory
 - Copy the `.env.example` as `.env`
 - In `.env` edit the database settings to work with your `mysql` database (instructions for mysql - but should work with other relational databases with slight modifications)
     - The port should be set to `localhost:8000` (will extract to env variable when done in docker)
@@ -32,7 +32,7 @@ DB_PASSWORD=r3@l~p@$$w0r|) # password here
 
 ### React FrontEnd
 
-- Go to the `webpals_front_end` directory
+- Go to the `front_end` directory
 - `npm start` or `npm run build`
 
 [demo here](https://www.youtube.com/watch?v=ogBhhMFAc3U)

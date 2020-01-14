@@ -1,4 +1,4 @@
-(this["webpackJsonpwebpals_front_end"] = this["webpackJsonpwebpals_front_end"] || []).push([["main"],{
+(this["webpackJsonpfront_end"] = this["webpackJsonpfront_end"] || []).push([["main"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/.scss/App.scss":
 /*!**********************************************************************************************************************************************************************************************************************************************!*\
@@ -133,13 +133,13 @@ if (true) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/AddStudent.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/AddStudent.js";
 
 
 
@@ -148,12 +148,12 @@ const AddStudent = () => {
   //     studentDeets()
   // }, [])
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         firstName = _useState2[0],
         setFirstName = _useState2[1];
 
   const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
-        _useState4 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        _useState4 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
         lastName = _useState4[0],
         setLastName = _useState4[1]; // const studentDeets = () => {
   // }
@@ -283,7 +283,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _EditGrade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./EditGrade */ "./src/components/EditGrade.js");
 /* harmony import */ var _StudentList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./StudentList */ "./src/components/StudentList.js");
 /* harmony import */ var _AddStudent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./AddStudent */ "./src/components/AddStudent.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/App.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/App.js";
 
 
 
@@ -435,7 +435,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/DeleteGrade.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/DeleteGrade.js";
 
 
 
@@ -595,7 +595,7 @@ const DeleteGrade = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
@@ -603,7 +603,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/EditGrade.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/EditGrade.js";
 
 
 
@@ -616,12 +616,12 @@ const EditGrade = ({
   }, []);
 
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         grade = _useState2[0],
         setGrade = _useState2[1];
 
   const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
-        _useState4 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        _useState4 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
         studentData = _useState4[0],
         setData = _useState4[1];
 
@@ -769,7 +769,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _ui_elements_DeleteButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui-elements/DeleteButton */ "./src/components/ui-elements/DeleteButton.js");
 /* harmony import */ var _ui_elements_EditButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui-elements/EditButton */ "./src/components/ui-elements/EditButton.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/GradeRows.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/GradeRows.js";
 
 
 
@@ -867,7 +867,7 @@ const GradeRows = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
@@ -881,7 +881,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GradeRows__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./GradeRows */ "./src/components/GradeRows.js");
 /* harmony import */ var _ui_elements_AddButton__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ui-elements/AddButton */ "./src/components/ui-elements/AddButton.js");
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/Grades.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/Grades.js";
 
 
 
@@ -896,32 +896,32 @@ const gradeAverage = (arr, toDec) => (arr.map(obj => obj.grade).reduce((a, b) =>
 
 const GradesTable = () => {
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         grades = _useState2[0],
         setGrades = _useState2[1];
 
   const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('created_at'),
-        _useState4 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        _useState4 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
         gradesFilter = _useState4[0],
         setFilter = _useState4[1];
 
   const _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
-        _useState6 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
+        _useState6 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
         loading = _useState6[0],
         setLoading = _useState6[1];
 
   const _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(1),
-        _useState8 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState7, 2),
+        _useState8 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState7, 2),
         currentPage = _useState8[0],
         setCurrentPage = _useState8[1];
 
   const _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(5),
-        _useState10 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState9, 2),
+        _useState10 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState9, 2),
         gradesPerPage = _useState10[0],
         setGradesPerPage = _useState10[1];
 
   const _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
-        _useState12 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState11, 2),
+        _useState12 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState11, 2),
         reversed = _useState12[0],
         setReverse = _useState12[1];
 
@@ -1262,13 +1262,13 @@ const GradesTable = () => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _ui_elements_Spinner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui-elements/Spinner */ "./src/components/ui-elements/Spinner.js");
 /* harmony import */ var _ui_elements_AddButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui-elements/AddButton */ "./src/components/ui-elements/AddButton.js");
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/StudentDetails.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/StudentDetails.js";
 
 
 
@@ -1283,17 +1283,17 @@ function StudentDetails({
   }, []);
 
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         student = _useState2[0],
         setStudent = _useState2[1];
 
   const _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-        _useState4 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+        _useState4 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
         grades = _useState4[0],
         setGrades = _useState4[1];
 
   const _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
-        _useState6 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
+        _useState6 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
         loading = _useState6[0],
         setLoading = _useState6[1];
 
@@ -1388,7 +1388,7 @@ function StudentDetails({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _ui_elements_AddButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui-elements/AddButton */ "./src/components/ui-elements/AddButton.js");
@@ -1396,7 +1396,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _StudentsTable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./StudentsTable */ "./src/components/StudentsTable.js");
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/StudentList.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/StudentList.js";
 
 
 
@@ -1408,7 +1408,7 @@ const StudentList = () => {
   }, []);
 
   const _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-        _useState2 = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+        _useState2 = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
         students = _useState2[0],
         setStudents = _useState2[1];
 
@@ -1523,7 +1523,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/StudentsTable.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/StudentsTable.js";
 
 
 
@@ -1598,14 +1598,14 @@ const StudentsTable = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
 
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/AddButton.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/AddButton.js";
 
 
 
@@ -1613,7 +1613,7 @@ var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui
 
 const AddButton = (_ref) => {
   let type = _ref.type,
-      props = Object(_home_jacob_webpals_test_webpals_front_end_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["type"]);
+      props = Object(_home_jacob_webpals_test_front_end_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["type"]);
 
   if (props.id) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
@@ -1670,7 +1670,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/DeleteButton.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/DeleteButton.js";
 
 
 
@@ -1716,7 +1716,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/EditButton.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/EditButton.js";
 
 
 
@@ -1761,7 +1761,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/Nav.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/Nav.js";
 
 
 
@@ -1884,7 +1884,7 @@ function Nav() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/Pagination.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/Pagination.js";
 
 
 const Pagination = ({
@@ -1954,7 +1954,7 @@ const Pagination = ({
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/components/ui-elements/Spinner.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/components/ui-elements/Spinner.js";
 
 
 function Spinner() {
@@ -2009,7 +2009,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../node_modules/bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var _node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/jacob/webpals_test/webpals_front_end/src/index.js";
+var _jsxFileName = "/home/jacob/webpals_test/front_end/src/index.js";
 
 
 
@@ -2032,8 +2032,8 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/jacob/webpals_test/webpals_front_end/node_modules/react-dev-utils/webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
-module.exports = __webpack_require__(/*! /home/jacob/webpals_test/webpals_front_end/src/index.js */"./src/index.js");
+__webpack_require__(/*! /home/jacob/webpals_test/front_end/node_modules/react-dev-utils/webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! /home/jacob/webpals_test/front_end/src/index.js */"./src/index.js");
 
 
 /***/ })
