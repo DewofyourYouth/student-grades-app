@@ -2,6 +2,8 @@
 
 An CRUD app for keeping track of and updating students and their grades. Uses new React hooks for state management.
 
+here's a link to a [YouTube video demo](https://youtu.be/ogBhhMFAc3U)
+
 ## Set Up Basics
 
 - Assumes [node](https://nodejs.org/en/), [php](https://www.php.net/manual/en/install.php), [mysql](https://dev.mysql.com/downloads/installer/) and [composer](https://getcomposer.org/) are installed on system.
@@ -25,7 +27,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=myDB
 DB_USERNAME=root
-DB_PASSWORD=r3@l~p@$$w0r|) # password here
+DB_PASSWORD=r3@l~p@$$\/\/|2|) # password here
 
 # don't touch the stuff below
 ```
