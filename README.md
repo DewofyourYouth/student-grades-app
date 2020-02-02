@@ -27,7 +27,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=myDB
 DB_USERNAME=root
-DB_PASSWORD=r3@l~p@$$w0r|) # password here
+DB_PASSWORD=r3@l~p@$$\/\/|2|) # password here
 
 # don't touch the stuff below
 ```
